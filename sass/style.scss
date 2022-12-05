@@ -79,6 +79,7 @@ section {
     font-family: $font-text;
     color: #ffffff;
     text-align: center;
+    font-style: italic;
 }
 
 .page-subtitle {
@@ -115,14 +116,30 @@ section {
     .section-title {
         font-size: 48px;
         margin: 0 0 72px 0;
+        font-family: $font-header;
+        text-align: center;
     }
+    .section-subtitle {
+        font-family: $font-text;
+        text-align: center;
+        font-style: italic;
+    }
+
     .boxes-services {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        text-align: center;
     }
     .box {
         flex: 0 0 33.333%;
         position: relative;
         padding: 0 0 40px
+    }
+    .title-services {
+        font-family: $font-header;
+        margin: 0 0 12px 0;
+    }
+    .subtitle {
+        font-family: $font-text;
     }
