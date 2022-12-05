@@ -10,3 +10,27 @@ $color-one: #ffffff;
 $color-two: #000000;
 $color-three: #f1c40f;
 $color-four: #ecf0f1;
+
+/* Main */
+body {
+    font-size: 16px;
+    font-family: $font-text;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1140px;
+
+}
+section {
+    padding: 96px 0;
+}
+
+/* Navigation */
+.navigation {
+    background: $color-three;
+    padding: 12px 0;
+}
