@@ -31,6 +31,15 @@ section {
 
 /* Navigation */
 .navigation {
-    background: $color-three;
     padding: 12px 0;
+    
+}
+.splash {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_1280.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+
+
 }
