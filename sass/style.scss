@@ -13,7 +13,7 @@ $color-four: #ecf0f1;
 
 /* Main */
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: $font-text;
     margin: 0;
     line-height: 1.7;
@@ -31,15 +31,79 @@ section {
 
 /* Navigation */
 .navigation {
-    padding: 12px 0;
+    padding: 20px 0;
     
 }
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 36 0 0;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation a:hover {
+    color: #f1c40f;
+}
+
+/* Splash-inner */
 .splash {
     background-image: url(https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_1280.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
     height: 80vh;
+}
 
+.splash-inner {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.page-title {
+    font-size: 52px;
+    word-spacing: -16px;
+    font-weight: 100;
+    font-family: $font-text;
+    color: #ffffff;
+}
+
+.page-subtitle {
+    font-size: 82px;
+    font-weight: 900;
+    margin: 24px 0;
+    font-family: $font-header;
+    color: #ffffff;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-header;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-three;
+    color: $color-four;
+    background-color: #f1c40f;
+    
 
 }
