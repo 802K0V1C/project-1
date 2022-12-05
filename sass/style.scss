@@ -1,3 +1,12 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+/* Variables */
+$font-header: 'Signika Negative', sans-serif;
+$font-text: 'Inconsolata', monospace;
+
+$color-one: #ffffff;
+$color-two: #000000;
+$color-three: #f1c40f;
+$color-four: #ecf0f1;
