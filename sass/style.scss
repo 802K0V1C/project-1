@@ -143,3 +143,31 @@ section {
     .subtitle {
         font-family: $font-text;
     }
+    /* Portfolio */
+    .boxes-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .box-offer {
+        flex: 0 0 50%;
+        position: relative;
+        min-height: 300px;
+        margin: 0 0 96px 0;
+
+    }
+    .box-img {
+        max-width: 150px;
+        height: 50%;
+        position: absolute;
+    }
+    .box-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .offer-description {
+        text-align: center;
+        position: relative;
+        padding: 0 0 0 50%;
+    }
