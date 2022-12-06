@@ -143,6 +143,18 @@ section {
     .subtitle {
         font-family: $font-text;
     }
+    .box i {
+        background-color: $color-three;
+        font-size: 30px;
+        color: $color-one;
+        width: 60px;
+        height: 60px;
+        border-radius: 60%;
+        line-height: 60px;
+        border-color: #f1c40f;
+        border-width: 1px;
+        
+    }
     /* Portfolio */
     .boxes-portfolio {
         display: flex;
@@ -150,15 +162,15 @@ section {
         justify-content: space-between;
     }
     .box-offer {
-        flex: 0 0 50%;
+        flex: 0 0 33.333333%;
         position: relative;
         min-height: 300px;
         margin: 0 0 96px 0;
 
     }
     .box-img {
-        max-width: 150px;
-        height: 50%;
+        max-width: 250px;
+        height: 100%;
         position: absolute;
     }
     .box-img img {
@@ -167,9 +179,12 @@ section {
         object-fit: cover;
     }
     .offer-description {
-        text-align: center;
+        display:block;
+        margin: 0 auto;
         position: relative;
-        padding: 0 0 0 50%;
+    }
+    .our-portfolio {
+        background-color: #ecf0f1;
     }
 
     /* Footer */
@@ -189,6 +204,8 @@ section {
         height: 60px;
         border-radius: 60%;
         line-height: 60px;
+        
+
      }
      .footer i:hover {
         transform: scale(1.2, 1.2);
