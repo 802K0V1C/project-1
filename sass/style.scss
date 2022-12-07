@@ -169,9 +169,7 @@ section {
 
     }
     .box-img {
-        max-width: 250px;
-        height: 100%;
-        position: absolute;
+     
     }
     .box-img img {
         width: 100%;
@@ -182,6 +180,7 @@ section {
         display:block;
         margin: 0 auto;
         position: relative;
+        text-align: center;
     }
     .our-portfolio {
         background-color: #ecf0f1;
